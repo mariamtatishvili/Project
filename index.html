@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+  <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+  
+     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylee.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Your Future</title>
+</head>
+<body>
+  <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="title">
+        </div>
+    </section>
+  <div class="container">
+    <div class="top">
+      <div class="header">
+        <h1>Your Future</h1>
+      </div>
+      <div class="entry">
+        <div class="input">
+          <label for="">First Name</label>
+          <input id='name' type="text" placeholder="First Name">
+        </div>
+        <div class="input">
+          <label for="">Age</label>
+          <input id='age' type="number" min='10' max='100' value='18'> 
+        </div>
+        <div class="input">
+          <label for="">Gender</label>
+          <select name="sex" id="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+  
+          </select>
+        </div>
+        <div class="input">
+          <label for="">Marital Status</label>
+          <select name="status" id="status">
+            <option value="single">Single</option>
+            <option value="dating">Still Dating</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widow">Widow/Widower</option>
+          </select>
+        </div>
+      </div>
+      <button id='show'>Show my future!</button>
+    </div>
+    <div class="bottom">
+    </div>
+    <div>
+      <button id='particles' onclick="window.location.href='particles/indexx.html'">Click Here to see where you results come from  </button>
+    </div>
+    
+  </div>
+
+ 
+
+</body>
+<script src='data.js'></script>
+<script src='script.min.js'></script>
+
+
+
+</html>
